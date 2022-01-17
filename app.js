@@ -1,3 +1,5 @@
+//test changes to push via git
+
 const a = "Rock".toLowerCase();
 const b = "Paper".toLowerCase();
 const c = "Scissors".toLowerCase();
