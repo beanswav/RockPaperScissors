@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Janken</title>
 </head>
 <body>
-    <div id="results">
-        <p id="result"></p>
-        <p id="playerScore">Your Score: 0</p>
-        <p id="compScore">CPU Score: 0</p>
-    </div>
-    <div id="buttons">
-        <button id="rock" class="button">rock</button>
-        <button id="paper" class="button">paper</button>
-        <button id="scissors" class="button">scissors</button>
-    </div>
+    <header class="header">
+        <h1 class="title">Janken</h1>
+    </header>
+    <main class="main">
+        <div class="results" id="results">
+            <p id="result"></p>
+            <p id="playerScore"></p>
+            <p id="compScore"></p>
+        </div>
+        <div class="player-options" id="buttons">
+            <button id="rock" value="rock">ROCK</button>
+            <button id="paper" value="paper">PAPER</button>
+            <button id="scissors" value="scissors">SCISSORS</button>
+        </div>
+    </main>
     <script src="app.js">
     </script>
     
